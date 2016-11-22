@@ -1,7 +1,8 @@
 canvas {
   border: 2px solid black;
   display: block;
-  margin: 100px auto;
+  margin: auto;
+  margin-top: 80px;
   background: url('http://wallpapercave.com/wp/nXidHnP.jpg') no-repeat;
   background-size: cover;
 }
@@ -9,4 +10,29 @@ canvas {
 body {
   background: url('http://wallpaperwarrior.com/wp-content/uploads/2016/08/Hockey-Wallpaper-19.jpg') no-repeat;
   background-size: cover;
+}
+
+.scoreboard {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  background: white;
+  border: 1px solid black;
+  color: black;
+  font-size: 2.5em;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 2.5px;
+}
+
+.scoreboards {
+  display: block;
+  width: 800px;
+  height: 55px;
+  margin: auto;
+  margin-bottom: -75px;
+}
+
+#score-right {
+  float:right;
 }
