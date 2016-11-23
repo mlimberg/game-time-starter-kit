@@ -10,10 +10,12 @@ canvas {
 body {
   background: url('http://wallpaperwarrior.com/wp-content/uploads/2016/08/Hockey-Wallpaper-19.jpg') no-repeat;
   background-size: cover;
+  font-family: 'Slackey', cursive;
+  /*font-family: 'Bowlby One', cursive;*/
+  /*font-family: 'Faster One', cursive;*/
 }
 
 .scoreboard {
-  display: inline-block;
   width: 100px;
   height: 50px;
   background: white;
@@ -26,7 +28,9 @@ body {
 }
 
 .scoreboards {
-  display: block;
+  display: flex;
+  flex-flow: row;
+  align-items: flex-end;
   width: 800px;
   height: 55px;
   margin: auto;
@@ -34,5 +38,15 @@ body {
 }
 
 #score-right {
-  float:right;
+  margin-left: auto;
+}
+
+#score-left {
+  margin-right: auto;
+}
+
+.main-h1 {
+  color: white;
+  font-size: 3em;
+  margin-top: auto;
 }
