@@ -39,14 +39,36 @@ body {
 
 #score-right {
   margin-left: auto;
+  border-radius: 5px;
 }
 
 #score-left {
   margin-right: auto;
+  border-radius: 5px;
 }
 
 .main-h1 {
   color: white;
   font-size: 3em;
   margin-top: auto;
+}
+
+#new-game {
+  border: none;
+  display: block;
+  margin: 10px auto;
+  background: white;
+  color: black;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+#new-game:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+#new-game:focus {
+  outline: none;
 }
