@@ -72,3 +72,8 @@ body {
 #new-game:focus {
   outline: none;
 }
+
+#new-game:disabled, #new-game:disabled:hover {
+  background: gray;
+  color: black;
+}
